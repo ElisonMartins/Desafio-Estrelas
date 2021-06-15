@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+body {
+    margin: 0; 
+    width: 100%; 
+    min-height: 100vh; 
+    background-color: #272935;
+    text-align: center;
+} 
+
+.logo {
+    width: 50%;
+    height: 200px;
+}
+
+.container {
+    font-family: Dosis;
+    margin: 10px;
+    float: left;
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: 0 10px 30px 0 black;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;  
+    transition: 0.3s;
+}
+
+.container:hover{
+    transform: scale(1.08);
+    z-index: 2;
+    transition: 0.3s;
+}
+
+.container h2 {
+    width: 220px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.personagem {
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    width: 205px;
+    height: 210px;
+    display: flex;
+}
+
+.btn {
+    font-family: Dosis;
+    background-color: #2187ab;
+    color: white;
+    padding: 10px;
+    margin: 50px;
+    font-size: 20pt;
+    transition: 0.5s;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1e7898;
+    transition: 0.5s;
+}
+
+footer {
+    font-family: Dosis;
+    font-size: 13pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1b1d25;
+    text-align: center;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+}
+
+.midiasSociaisFooter a {
+    font-size: 20pt;
+    color: #fff;
+    margin-right:5px;
+    transition: 0.3s;
+}
+
+.midiasSociaisFooter a:hover {
+    color: #87CEFA;
+    transition: 0.3s;
+}    
+
+@media screen and (max-width: 750px) {
+	.container{
+        margin-left: 20%;
+        margin-right: 20%;
+	}
+
+    .logo {
+        width: 90%;
+    }
+}
