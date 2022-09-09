@@ -1,6 +1,7 @@
 <h1> Desafio feito para processo seletivo da Zup </h1>
 <p> Desafio que mostra os nomes e as imagens de 4 personagens que serao gerados aleatoriamente. <br/>
 Realizado durante o projeto "Estrelas fora da caixa" da empresa Zup. <br/>
+Deploy: https://desafio-estrelas.vercel.app <br/>
 API utilizada: https://rickandmortyapi.com/ </p>
 
 <h2> Linguagens </h2>
